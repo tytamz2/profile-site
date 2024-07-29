@@ -26,7 +26,8 @@ function Projects(){
                             </p>
                         </Row>
                         <Row>
-                            {/* Project Link Here */}
+                            <h2>Frameworks used:</h2>
+                            <p>NodeJS, React, bootstrap, expressJS, etc.</p>
                         </Row>
                     </Col>
                     <Col>
@@ -35,18 +36,23 @@ function Projects(){
                         </Row>
                         <Row>
                             <p>
-                                Simple Chat Applactions. users are able to create an account
+                                Simple Chat application. users are able to create an account
                                 to chat with other users, allows users to edit thier profile 
                             </p>
                         </Row>
                         <Row>
-
+                            <h2>Frameworks used:</h2>
+                            <p>Java,NodeJS, React</p>
                         </Row>
                     </Col>
                 </Row>
                 <Row>
                     <Col>
                         <Row></Row>
+                        <Row></Row>
+                        <Row>
+                            <a href=''>Project Repo</a>
+                        </Row>
                     </Col>
                     <Col>
                     </Col>

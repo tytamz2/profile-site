@@ -17,8 +17,9 @@ function nav(){
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                     <Nav.Link href="/">Home</Nav.Link>
-                    <Nav.Link href="/">Projects</Nav.Link>
-                    <Nav.Link href="/">Resume</Nav.Link>
+                    <Nav.Link href="/projects">Projects</Nav.Link>
+                    <Nav.Link href="/resume">Resume</Nav.Link>
+                    <Nav.Link hrec="/links">Links</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
                 </Container>

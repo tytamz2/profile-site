@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Document, Page } from 'react-pdf';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import Stack from 'react-bootstrap/Stack';
