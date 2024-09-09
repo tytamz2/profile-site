@@ -1,6 +1,6 @@
 import Home from './componets/Home/Home'
 import Projects from './componets/Projects/Projects';
-import Resume from './componets/Resume/resume';
+import Resume from './componets/Resume/Resume';
 
 const routes = [
     {
