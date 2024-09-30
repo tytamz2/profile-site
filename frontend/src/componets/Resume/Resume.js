@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Pdf from './Resume-2';
+import Pdf from '../../Files/Resume-2.pdf'
 import { Document, Page } from 'react-pdf';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';

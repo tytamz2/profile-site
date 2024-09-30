@@ -1,6 +1,7 @@
 import Home from './componets/Home/Home'
 import Projects from './componets/Projects/Projects';
 import Resume from './componets/Resume/Resume';
+import Layout from '../src/componets/Layout/layout'
 
 const routes = [
     {
@@ -8,15 +9,15 @@ const routes = [
         children: [
             {
                 path: "/",
-                element: <Home/>
+                element: <Home />
             },
             {
                 path:"/projects",
-                element:<Projects/>
+                element:<Projects />
             },
             {
                 path:"/resume",
-                element:<Resume/>
+                element:<Resume />
             }
         ]
     }
