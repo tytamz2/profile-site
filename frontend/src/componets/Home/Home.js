@@ -11,25 +11,20 @@ function Home(){
 
 
     return(
-        <div>
-            <h1>Profile</h1>
-
-            <Container>
-                <Col className='photo'>
-                    {/* Photo Here */}
-                </Col>
-                <Col>
-                    <Row>
-                        <h2>Tyler Tam</h2>
-                        <h3>Computer Programmer</h3>
-                    </Row>
-                    <Row className='About'>
-                        <p>
-                            I enjoy playing online games, taking walks outside and watching sports
-                        </p>
-                    </Row>
-                </Col>
-            </Container>
+        <div id="NavBar">
+            <nav>
+          <ul>
+            <li>
+              <a href={`/projects`}>Projects</a>
+            </li>
+            <li>
+              <a href={`/resume`}>Resume</a>
+            </li>
+            <li>
+              <a href={`/links`}>Links</a>
+            </li>
+          </ul>
+        </nav>
         </div>
 
     )
