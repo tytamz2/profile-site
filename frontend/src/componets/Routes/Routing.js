@@ -8,7 +8,7 @@ import {
     createBrowserRouter,
     RouterProvider,
   } from "react-router-dom";
-  import "./App.css";
+  // import "./App.css";
 
   const router = createBrowserRouter([
     {
@@ -22,10 +22,6 @@ import {
     {
         path:"/resume",
         element:<Resume />
-    },
-    {   
-        path:'/links',
-        element:<Links/>
     }
   ]);
 
@@ -36,4 +32,4 @@ import {
   );
 
 
-export default routes;
+export default router;

@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import routing from './componets/Routes/Routing'
+import router from './componets/Routes/Routing'
 import Home from './componets/Home/Home';
 
 
