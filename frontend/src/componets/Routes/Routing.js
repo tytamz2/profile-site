@@ -16,11 +16,11 @@ import {
       element: <Home/>,
     },
     {
-        path:"/projects",
+        path:"/Projects",
         element:<Projects />
     },
     {
-        path:"/resume",
+        path:"/Resume",
         element:<Resume />
     }
   ]);
