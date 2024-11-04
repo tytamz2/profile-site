@@ -1,9 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import router from './componets/Routes/Routing'
+import Routes from './Routes'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-
+const router = createBrowserRouter(Routes);
 
 function App() {
   return (

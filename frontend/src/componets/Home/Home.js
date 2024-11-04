@@ -12,21 +12,12 @@ function Home(){
 
 
     return(
-        <div id="NavBar">
-            <nav>
-          <ul>
-            <li>
-              <a href={`/Projects`}>Projects</a>
-            </li>
-            <li>
-              <a href={`/Resume`}>Resume</a>
-            </li>
-            <li>
-              <a href={`/links`}>Links</a>
-            </li>
-          </ul>
-        </nav>
-        </div>
+        <Container>
+          <Row className="justify-content-md-center">
+            Tyler Tam
+          </Row>
+
+        </Container>
 
     )
 }

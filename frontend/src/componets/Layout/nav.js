@@ -23,7 +23,7 @@ function nav(){
                             <Nav.Link href={`/projects`}>Projects</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link href={`/Resume`}>Resume</Nav.Link>
+                            <Nav.Link href={`/resume`}>Resume</Nav.Link>
                         </Nav.Item>
                         </Nav>
                     </Navbar.Collapse>

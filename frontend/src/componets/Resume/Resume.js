@@ -6,6 +6,7 @@ import Modal from 'react-bootstrap/Modal';
 import Stack from 'react-bootstrap/Stack';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/esm/Container';
 
 
   
@@ -14,8 +15,9 @@ import Col from 'react-bootstrap/Col';
 function Resume(){
 
     return(
-        <div className='Resume'>
-            <h1>Resume</h1>
+        <div>
+            <Container>
+                <h1>Resume</h1>
 
             <div>
                 <iframe src='../../Files/Resume-2.pdf'
@@ -24,6 +26,7 @@ function Resume(){
                  loading="lazy"
                  title="Resume"></iframe>
             </div>
+            </Container>
         </div>
     )
 }

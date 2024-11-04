@@ -9,6 +9,7 @@ function Layout(){
         <div>
             <Nav/>
             <Container>
+                <Outlet/>
                 <footer/>
             </Container>
         </div>
