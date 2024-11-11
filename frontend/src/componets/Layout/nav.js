@@ -25,6 +25,9 @@ function nav(){
                         <Nav.Item>
                             <Nav.Link href={`/resume`}>Resume</Nav.Link>
                         </Nav.Item>
+                        <Nav.Item>
+                            <Nav.Link href={`/links`}>Links</Nav.Link>
+                        </Nav.Item>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

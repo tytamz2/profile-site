@@ -18,6 +18,10 @@ const Routes = [
             {
                 path: '/resume',
                 element:<Resume/>
+            },
+            {
+                path: '/links',
+                element:<Links/>
             }
         ]
     }
