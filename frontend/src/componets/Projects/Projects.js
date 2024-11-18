@@ -5,6 +5,7 @@ import Stack from 'react-bootstrap/Stack';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/esm/Container';
+import '../../css/Projects.css'
 
 function Projects(){
 
@@ -15,7 +16,7 @@ function Projects(){
 
             <Container>
                 <Row>
-                    <Col>
+                    <Col className='col'>
                         <Row>
                             <h2>Activity Tracker</h2>
                         </Row>

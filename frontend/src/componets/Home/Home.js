@@ -6,13 +6,14 @@ import Stack from 'react-bootstrap/Stack';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/esm/Container';
+import '../../css/Home.css'
 
 function Home(){
 
 
 
     return(
-        <Container>
+        <Container className='home'>
           <Row className="justify-content-md-center">
             Tyler Tam
           </Row>

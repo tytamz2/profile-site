@@ -5,19 +5,22 @@ import Stack from 'react-bootstrap/Stack';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/esm/Container';
+import { Link } from "@react-email/components";
+import '../../css/Links.css'
 
 function Links(){
-    <div>
+    return(
+        <div>
         <h1>Links</h1>
 
         <Container>
             <Row>
-                <Row>
+                <Col>
                     <h2> Email Contact:</h2>
-                </Row>
-                <Row>
-                    <a href='tytam1326@gmail.com'>Email</a>
-                </Row>
+                </Col>
+                <Col>
+                    <Link href='tytam1326@gmail.com'>tytam1326@gmail.com</Link>
+                </Col>
             </Row>
             <Row>
                 <Row>
@@ -32,6 +35,7 @@ function Links(){
             </Row>
         </Container>
     </div>
+    )
 }
 
 export default Links;
