@@ -10,17 +10,13 @@ import '../../css/Links.css'
 
 function Links(){
     return(
-        <div>
+        <div className='contactLink'>
         <h1>Links</h1>
 
         <Container>
-            <Row>
-                <Col>
-                    <h2> Email Contact:</h2>
-                </Col>
-                <Col>
-                    <Link href='tytam1326@gmail.com'>tytam1326@gmail.com</Link>
-                </Col>
+            <Row className='email'>  
+                <h2> Email Contact: </h2>
+                <Link href='tytam1326@gmail.com'>tytam1326@gmail.com</Link>
             </Row>
             <Row>
                 <Row>

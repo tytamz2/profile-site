@@ -1,5 +1,17 @@
-.Col{
+.col1{
     border-style: inset;
     border-color: black;
     border-width: 5px;
+}
+
+.col2{
+    border-color: black;
+    border-style: groove;
+    border-width: 3px;
+}
+
+.col3{
+    border-color: black;
+    border-style: groove;
+    border-width: 3px;
 }

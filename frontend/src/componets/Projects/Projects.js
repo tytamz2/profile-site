@@ -16,7 +16,7 @@ function Projects(){
 
             <Container>
                 <Row>
-                    <Col className='col'>
+                    <Col className='col1'>
                         <Row>
                             <h2>Activity Tracker</h2>
                         </Row>
@@ -31,7 +31,7 @@ function Projects(){
                             <p>NodeJS, React, bootstrap, expressJS, etc.</p>
                         </Row>
                     </Col>
-                    <Col>
+                    <Col className='col2'>
                         <Row>
                             <h2>Chat Appplication</h2>
                         </Row>
@@ -48,7 +48,7 @@ function Projects(){
                     </Col>
                 </Row>
                 <Row>
-                    <Col>
+                    <Col className='col3'>
                         <Row></Row>
                         <Row></Row>
                         <Row>

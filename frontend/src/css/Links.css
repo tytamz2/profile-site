@@ -1,0 +1,9 @@
+.contactLink{
+    background-color: aqua;
+    border-style: inset;
+}
+
+.email{
+    display: flex;
+    justify-content: space-between;
+}
