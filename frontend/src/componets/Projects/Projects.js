@@ -11,10 +11,10 @@ function Projects(){
 
 
     return(
-        <div>
+        <div className='project'>
             <h1>Programming Projects</h1>
 
-            <Container>
+            <Container className='prj'>
                 <Row>
                     <Col className='col1'>
                         <Row>
