@@ -16,14 +16,14 @@ function Links(){
         <Container>
             <Row className='email'>  
                 <h2> Email Contact: </h2>
-                <Link href='tytam1326@gmail.com'>tytam1326@gmail.com</Link>
+                <a className='emailLink' href='mailto:tytam1326@gmail.com'>tytam1326@gmail.com</a>
             </Row>
             <Row>
                 <Row>
                     <h2>Github</h2>
                 </Row>
                 <Row>
-                    <a href=''>tytamz2</a>
+                    <a href='https://www.github.com'>tytamz2</a>
                 </Row>
             </Row>
             <Row>

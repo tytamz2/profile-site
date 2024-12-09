@@ -9,7 +9,7 @@ function nav(){
 
 
     return(
-        <header class="nav">
+        <header className="nav">
              <Navbar expand="lg" bg='primary' data-bs-theme='dark'>
                 <Container>
                     <Navbar.Brand href='/'>Tyler Tam's Profile</Navbar.Brand>

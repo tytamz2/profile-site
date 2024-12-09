@@ -21,7 +21,7 @@ function Resume(){
                 <h1>Resume</h1>
 
             <div>
-                <iframe src='..\..\Resume-2.pdf'
+                <iframe src={'/Resume-2'}
                  width="100%"
                  height="600px"
                  loading="lazy"
