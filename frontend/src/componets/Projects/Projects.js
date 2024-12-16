@@ -49,8 +49,15 @@ function Projects(){
                 </Row>
                 <Row>
                     <Col className='col3'>
-                        <Row></Row>
-                        <Row></Row>
+                        <Row>
+                        <h2>Profile Website</h2>
+                        </Row>
+                        <Row>
+                            <p>
+                                Basic Website to display my personal profile and provide contact info
+                                and resume
+                            </p>
+                        </Row>
                         <Row>
                             <a href=''>Project Repo</a>
                         </Row>

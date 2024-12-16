@@ -24,7 +24,7 @@ const Routes = [
             {
                 path: '/links',
                 element:<Links/>
-            }
+            },
         ]
     }
 ]
