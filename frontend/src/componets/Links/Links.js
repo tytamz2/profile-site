@@ -27,6 +27,10 @@ function Links(){
                 </Row>
             </Row>
             <Row>
+                <h3>Linkdin:</h3>
+                <a href='http://www.linkedin.com/in/Tyler-Tam14'>Linkdin</a>
+            </Row>
+            <Row>
                 <h2>Phone #: 1 415-823-1283</h2>
             </Row>
         </Container>

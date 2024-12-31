@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from './nav';
-import footer from './footer'
+import cfooter from './cfooter'
 import Container from 'react-bootstrap/Container';
 import { Outlet } from 'react-router-dom';
 
@@ -9,8 +9,9 @@ function Layout(){
         <div>
             <Nav/>
             <Container>
+                {}
                 <Outlet/>
-                <footer/>
+                <cfooter/>
             </Container>
         </div>
     )

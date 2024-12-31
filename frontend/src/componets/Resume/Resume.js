@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { pdfjs, Document, Page, StyleSheet } from 'react-pdf';
-import pdf from '../../Files/Resume-2.pdf'
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import Stack from 'react-bootstrap/Stack';
@@ -21,7 +20,7 @@ function Resume(){
                 <h1>Resume</h1>
 
             <div>
-                <iframe src={'/Resume-2.pdf'}
+                <iframe src={'/Resume_TylerTam.pdf'}
                  width="100%"
                  height="800px"
                  loading="lazy"
