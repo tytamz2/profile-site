@@ -5,3 +5,12 @@
 .body{
     background-color: black;
 }
+
+.photo{
+    height: '50px';
+    width: auto;
+}
+
+.profileDesc{
+    font-size: large;
+}

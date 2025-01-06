@@ -14,8 +14,30 @@ function Home(){
 
     return(
         <Container className='home'>
-          <Row className="justify-content-md-center">
-            Tyler Tam
+        <Row>
+          <Col>
+            <Row>
+              <img className='photo' src={'portrait.jpg'} width={400} height={700} alt='photo' ></img>
+            </Row>
+            <Row>
+              <h2>Tyler Tam 23</h2>
+              <h3>B.S Computer Science - San Franscico State University
+              </h3>
+            </Row>
+          </Col>
+          <Col>
+            <Row>
+              <p className='profileDesc'> 
+                Bachlor of Science in Computer Science, Strong Knowledge in
+                Programming and networking, worked with many diffrent frame works and 
+                programming lagagues: Java, Python, React, SQL, Mongo, etc. 
+              </p>
+              <p className='intrests'>
+                In my free time I enjoy making food and taking walks outside,
+                I also linke to explore new things and places I have never been to
+              </p>
+            </Row>
+          </Col>
           </Row>
 
         </Container>
