@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from './nav';
-import cfooter from './cfooter'
+import SiteFooter from './siteFooter'
 import Container from 'react-bootstrap/Container';
 import { Outlet } from 'react-router-dom';
 
@@ -8,10 +8,10 @@ function Layout(){
     return(
         <div>
             <Nav/>
-            <Container>
+            <Container fluid='xl'>
                 {}
                 <Outlet/>
-                <cfooter/>
+                <SiteFooter/>
             </Container>
         </div>
     )

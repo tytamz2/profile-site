@@ -1,11 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import navbar from '../Layout/nav'
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
-import Stack from 'react-bootstrap/Stack';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/esm/Container';
+import Accordion from 'react-bootstrap/Accordion';
 import '../../css/Home.css'
 
 function Home(){
@@ -13,7 +10,7 @@ function Home(){
 
 
     return(
-        <Container className='home'>
+        <Container className='home' fluid="xl">
         <Row>
           <Col>
             <Row>
@@ -27,15 +24,25 @@ function Home(){
           </Col>
           <Col>
             <Row>
-              <p className='profileDesc'> 
-                Bachlor of Science in Computer Science, Strong Knowledge in
-                Programming and networking, worked with many diffrent frame works and 
-                programming lagagues: Java, Python, React, SQL, Mongo, etc. 
-              </p>
-              <p className='intrests'>
+            <Accordion defaultActiveKey={['0']} alwaysOpen>
+              <Accordion.Item eventKey="0">
+              <Accordion.Header>Profile Description</Accordion.Header>
+              <Accordion.Body>
+              Bachlor of Science in Computer Science, Strong Knowledge in
+                Programming and networking, worked with many diffrent frame works and
+                programming lagagues: Java, Python, React, SQL, Mongo, etc.
+              </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="1">
+              <Accordion.Header>Intrests</Accordion.Header>
+              <Accordion.Body>
                 In my free time I enjoy making food and taking walks outside,
                 I also linke to explore new things and places I have never been to
-              </p>
+                before
+              </Accordion.Body>
+              </Accordion.Item>
+            </Accordion>
+
             </Row>
           </Col>
           </Row>

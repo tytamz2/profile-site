@@ -14,3 +14,17 @@
 .profileDesc{
     font-size: large;
 }
+
+.container {
+    max-width: '100%'  
+}
+
+.profileDesc{
+    border-style: inset;
+    border-color: black;
+}
+
+.intrests{
+    border-style: inset;
+    border-color: black;
+}

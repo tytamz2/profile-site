@@ -1,7 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
-import Stack from 'react-bootstrap/Stack';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/esm/Container';
@@ -14,7 +11,7 @@ function Projects(){
         <div className='project'>
             <h1>Programming Projects</h1>
 
-            <Container className='prj'>
+            <Container className='prj' fluid>
                 <Row>
                     <Col className='col1'>
                         <Row>

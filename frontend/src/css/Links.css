@@ -1,6 +1,7 @@
 .contactLink{
     background-color: aqua;
     border-style: inset;
+    width: 100%;
 }
 
 .email{
