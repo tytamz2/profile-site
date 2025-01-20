@@ -29,8 +29,8 @@ function Home(){
               <Accordion.Header>Profile Description</Accordion.Header>
               <Accordion.Body>
               Bachlor of Science in Computer Science, Strong Knowledge in
-                Programming and networking, worked with many diffrent frame works and
-                programming lagagues: Java, Python, React, SQL, Mongo, etc.
+                Programming and networking, worked with many diffrent frameworks and
+                programming lagagues.
               </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="1">
@@ -41,6 +41,37 @@ function Home(){
                 before
               </Accordion.Body>
               </Accordion.Item>
+              <Accordion.Item eventKey="2">
+              <Accordion.Header>Skills</Accordion.Header>
+              <Accordion.Body>
+                  <Row>
+                    - Java
+                  </Row>
+                  <Row>
+                    - C++
+                  </Row>
+                  <Row>
+                    - JavaScript
+                  </Row>
+                  <Row>
+                    - React Frameworks
+                  </Row>
+                  <Row>
+                    - Wireshark
+                  </Row>
+                  <Row>
+                    - Python
+                  </Row>
+                  <Row>
+                    - SQL
+                  </Row>
+                  <Row>
+                    - Other Frameworks
+                  </Row>
+
+              </Accordion.Body>
+              </Accordion.Item>
+              
             </Accordion>
 
             </Row>
